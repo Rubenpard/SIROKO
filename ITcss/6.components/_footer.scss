@@ -1,0 +1,23 @@
+.footer{
+    height: 148px;
+    background-color: #000000;
+    font-family: $font-primary;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    color: $color-footer;
+
+    &__link{
+        font-weight: 700;
+        color: white;
+        text-decoration: underline;
+    }
+
+    &__background{
+        background-color: #000; 
+        width: 100%; 
+        height: 148px; 
+        margin-top: -148px;
+    }
+}

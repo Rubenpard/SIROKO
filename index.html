@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Rubén Martínez</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@100&family=Dosis:wght@400;500&family=Inconsolata:wght@200..900&family=Krona+One&family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@100&family=Dosis:wght@400;500&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&display=swap" rel="stylesheet"> 
+    <!-- CSS compilado aquí -->
+     <link rel="stylesheet" href="styles.css">
+     <script src="script/javaScript.js"></script> 
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__logo">   
+                    
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section id="step-1" class="step active form">
+                <div class="form__step-indicator">
+                    <p class="form__step">Paso 1 de 2</p>
+                </div>
+                <h1 class="form__title">¡VAMOS ALLÁ!</h1>
+                <p class="form__description">
+                    Has llegado hasta el test de Siroko. Responde las siguientes preguntas y genera tu código a medida.
+                </p>
+                <form class="form__content">
+                    <fieldset class="form__fieldset">
+                        <legend class="form__legend">USO SIROKO DESDE...</legend>
+                        <div class="form__radio-group">
+                            <label class="form__radio-label">
+                                <input type="radio" name="year" value="2016" class="form__radio-input" checked>
+                                <span class="form__radio-text">2016</span>
+                            </label>
+                            <label class="form__radio-label">
+                                <input type="radio" name="year" value="2017" class="form__radio-input">
+                                <span class="form__radio-text">2017</span>
+                            </label>
+                            <label class="form__radio-label">
+                                <input type="radio" name="year" value="2018" class="form__radio-input">
+                                <span class="form__radio-text">2018</span>
+                            </label>
+                            <label class="form__radio-label">
+                                <input type="radio" name="year" value="2019" class="form__radio-input">
+                                <span class="form__radio-text">2019</span>
+                            </label>
+                            <label class="form__radio-label">
+                                <input type="radio" name="year" value="2020" class="form__radio-input">
+                                <span class="form__radio-text">2020</span>
+                            </label>
+                            <label class="form__radio-label">
+                                <input type="radio" name="year" value="2021" class="form__radio-input">
+                                <span class="form__radio-text">2021</span>
+                            </label>
+                            <button type="button" id="next-step-1" class="form__button">Siguiente →</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+
+    <!-- PASO 2 -->
+
+            <Section id="step-2" class="step form">
+                <div class="form__step-indicator">
+                    <p class="form__step">Paso 2 de 2</p>
+                </div>
+                <h1 class="form__title">VAMOS, UNA MÁS</h1>
+                <form class="form__content">
+                    <fieldset class="form__fieldset">
+                        <legend class="form__legend">POR UNAS GAFAS SIROKO, YO...</legend>
+                    <div class="form__radio-group">
+                        <label class="form__radio-label">
+                            <input type="radio" name="choice" value="Segaría a navaja" class="form__radio-input" checked>
+                            <span class="form__radio-text"> Segaría a navaja</span>
+                        </label>
+                        <label class="form__radio-label">
+                            <input type="radio" name="choice" value="Rechazaría un cachopo" class="form__radio-input">
+                            <span class="form__radio-text"> Rechazaría un cachopo</span>
+                        </label>
+                        <label class="form__radio-label">
+                            <input type="radio" name="choice" value="Renunciaría a mis tierras" class="form__radio-input">
+                            <span class="form__radio-text">Renunciaría a mis tierras</span>
+                        </label>
+                        <label class="form__radio-label">
+                            <input type="radio" name="choice" value="Regalaría una ternera" class="form__radio-input">
+                            <span class="form__radio-text">Regalaría una ternera</span>
+                        </label>
+                          <button type="button" id="next-step-2" class="form__button">Siguiente</button>
+                    </div>
+                    </fieldset>
+                </form>
+            </section>
+
+                <!-- PASO 3 -->
+
+            <Section id="step-result" class="step form">
+                <div class="form__step-indicator">
+                    <p class="form__step">TU PREMIO ESTÁ LISTO</p>
+                </div>
+                <h1 class="form__title">¡ENHORABUENA!</h1>
+                <div class="form__content">
+                    <fieldset class="form__fieldset">
+                        <legend class="form__legend">LO PROMETIDO ES DEUDA</legend>
+                <div id="discount-code-container" class="form__code">
+                    <span id="discount-code">XXXX</span>
+                    <button id="copy-code">Copiar</button>
+                </div>
+                <p class="form__description">
+                    Introduce este código en tu próxima compra para conseguir tu premio.¡Disponible durante 20 minutos! 
+                </p>
+                <div id="timer-container" class="form__timer">
+                    <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23 4.85849L17.71 0.419495L16.2265 2.17899L21.5165 6.61799L23 4.85849ZM6.762 2.17899L5.29 0.419495L0 4.84699L1.4835 6.60649L6.762 2.17899ZM12.075 7.48049H10.35V14.3805L15.8125 17.658L16.675 16.2435L12.075 13.518V7.48049ZM11.5 2.88049C5.7845 2.88049 1.15 7.515 1.15 13.2305C1.15 18.946 5.773 23.5805 11.5 23.5805C17.2155 23.5805 21.85 18.946 21.85 13.2305C21.85 7.515 17.2155 2.88049 11.5 2.88049ZM11.5 21.2805C7.0495 21.2805 3.45 17.681 3.45 13.2305C3.45 8.77999 7.0495 5.18049 11.5 5.18049C15.9505 5.18049 19.55 8.77999 19.55 13.2305C19.55 17.681 15.9505 21.2805 11.5 21.2805Z" fill="white"/>
+                        </svg>
+                          <p id="timer">20:00</p>
+                </div>
+                <div id="timer-expired" class="form__timer--expired" style="display: none;">
+                    <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23 4.85849L17.71 0.419495L16.2265 2.17899L21.5165 6.61799L23 4.85849ZM6.762 2.17899L5.29 0.419495L0 4.84699L1.4835 6.60649L6.762 2.17899ZM12.075 7.48049H10.35V14.3805L15.8125 17.658L16.675 16.2435L12.075 13.518V7.48049ZM11.5 2.88049C5.7845 2.88049 1.15 7.515 1.15 13.2305C1.15 18.946 5.773 23.5805 11.5 23.5805C17.2155 23.5805 21.85 18.946 21.85 13.2305C21.85 7.515 17.2155 2.88049 11.5 2.88049ZM11.5 21.2805C7.0495 21.2805 3.45 17.681 3.45 13.2305C3.45 8.77999 7.0495 5.18049 11.5 5.18049C15.9505 5.18049 19.55 8.77999 19.55 13.2305C19.55 17.681 15.9505 21.2805 11.5 21.2805Z" fill="white"/>
+                        </svg>
+                          <p>Código caducado. <span><button type="button" id="restart"> Reiniciar</button></span></p>
+                </div>
+                <button onclick="window.open('https://www.siroko.com/es/', '_blank')" class="form__button">
+                    Ir a siroko.com →
+                </button>                
+            </fieldset>
+            </div>
+            </Section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <p class="footer__text">2016-2021 Siroko Solutions S.L.</p>
+                <p class="footer__text">Todos los derechos reservados. 
+                <a href="#" class="footer__link">Ver bases</a></p>
+            </div>
+        </footer>
+    </div>
+    <div class="footer__background"></div>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+$font-primary: 'Inconsolata', sans-serif;
+$font-secondary: 'LiberatorSIROKOLight', sans-serif;
+$font-leyend:"Inter", sans-serif;;
+$base-font-size: 16px;
+
+@font-face {
+    font-family: 'LiberatorSIROKOHeavy';
+    src: url('/assets/LiberatorSiroko/LiberatorSIROKO-Heavy.ttf') format('truetype');
+    font-weight: 900; // Peso para 'Heavy'
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'LiberatorSIROKOLight';
+    src: url('/assets/LiberatorSiroko/LiberatorSIROKO-Heavy.ttf') format('truetype');
+    font-weight: 300; // Peso para 'Light'
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'LiberatorSIROKOMedium';
+    src: url('/assets/LiberatorSiroko/LiberatorSIROKO-Medium.ttf') format('truetype');
+    font-weight: 500; // Peso para 'Medium'
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'LiberatorSIROKOOutline';
+    src: url('/assets/LiberatorSiroko/LiberatorSIROKO-Outline.ttf') format('truetype');
+    font-weight: normal; // Peso normal para 'Outline'
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'LiberatorSIROKOThin';
+    src: url('/assets/LiberatorSiroko/LiberatorSIROKO-Thin.ttf') format('truetype');
+    font-weight: 100; // Peso para 'Thin'
+    font-style: normal;
+  }
+  

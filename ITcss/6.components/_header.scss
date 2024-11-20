@@ -1,0 +1,32 @@
+.header {
+    &__logo {
+        margin-top: 50px;
+        margin-bottom: 25px;
+        width: 150px;
+        height: 35px;
+        background-image: var(--logoSvg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+/* Tablets y móviles grandes */
+@media screen and (max-width: 768px) {
+    .header {
+        &__logo {
+            width: 40px;   
+            background-size: auto;    
+        }
+    }
+}
+
+/* Móviles */
+@media screen and (max-width: 480px) {
+    .header {
+        &__logo {
+            width: 40px;
+            background-size: auto;
+        }
+    }
+}
+

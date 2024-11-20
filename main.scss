@@ -1,0 +1,28 @@
+// ITcss/main.scss
+
+// 1. Settings - Variables de configuración
+@import 'ITcss/1.settings/colors';
+@import 'ITcss/1.settings/fonts';
+
+// 2. Tools - Mixins y funciones
+@import 'ITcss/2.tools/mixins';
+@import 'ITcss/2.tools/functions';
+
+// 3. Generic - Estilos globales
+@import 'ITcss/3.generic/reset';
+@import 'ITcss/3.generic/normalize';
+
+// 4. Elements - Estilos básicos de elementos HTML
+@import 'ITcss/4.elements/base';
+@import 'ITcss/4.elements/iconos';
+
+// 5. Objects - Layout y estructura
+@import 'ITcss/5.objects/layout';
+
+// 6. Components - Componentes específicos
+@import 'ITcss/6.components/header';
+@import 'ITcss/6.components/form';
+@import 'ITcss/6.components/footer';
+
+// 7. Utilities - Utilidades y clases helper
+@import 'ITcss/7.utilities/helpers';

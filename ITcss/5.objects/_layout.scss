@@ -1,0 +1,38 @@
+.page {
+    max-width: 940px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.main-content {
+    @include flex-center;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@media screen and (min-width: 1200px) {
+    .page {
+        min-height: 100vh;
+    }
+}
+
+
+/* Tablets y móviles grandes */
+@media screen and (max-width: 768px) {
+    .page {
+        min-height: 115vh;
+    }
+}
+
+/* Móviles */
+@media screen and (max-width: 480px) {
+    .page {
+        min-height: 110vh;
+    }
+}
+    
