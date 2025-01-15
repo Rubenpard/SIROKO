@@ -18,5 +18,7 @@ HE utilizado metodologia ITCSS para estructurar los estilos.
 
 Se han aplicado reglas de WCAG como navegacion por teclado,arial label y title para accesibilidad.
 
+Lamentablemente no he podido nada mas que usar la fuente Open Sans solo he recibido BNP Pariba
+
 
 # Muchas gracias por su tiempo y que tengan un buen día!
